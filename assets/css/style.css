@@ -432,6 +432,7 @@ h3{
     gap: 10px;
     color: var(--color-white);
     margin-block: 5px;
+    text-align: center;
 }
 .contact-info p>a{
     font-size: 18px;
