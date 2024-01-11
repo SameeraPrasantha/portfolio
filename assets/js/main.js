@@ -271,3 +271,161 @@
      // Show the selected image
      slides3[currentSlide3].style.display = "block";
  }
+
+
+
+ // 4 slide
+
+
+
+ var currentSlide4 = 0;
+
+ function openSlider4() {
+     var slider4 = document.getElementById("imageSlider4");
+     var slides4 = document.getElementsByClassName("sliderImage4");
+
+     // Show all images initially
+     for (var i = 0; i < slides4.length; i++) {
+         slides4[i].style.display = "none";
+     }
+
+     // Show only the selected image
+     showSlide4(currentSlide4);
+
+     // Display the slider
+     slider4.style.display = "flex";
+ }
+
+ function closeSlider4() {
+     var slider4 = document.getElementById("imageSlider4");
+     slider4.style.display = "none";
+ }
+
+ function changeSlide4(n) {
+     showSlide4(currentSlide4 += n);
+ }
+
+ function showSlide4(n) {
+     var slides4 = document.getElementsByClassName("sliderImage4");
+     if (n >= slides4.length) {
+         currentSlide4 = 0;
+     } else if (n < 0) {
+         currentSlide4 = slides4.length - 1;
+     } else {
+         currentSlide4 = n;
+     }
+
+     // Hide all images
+     for (var i = 0; i < slides4.length; i++) {
+         slides4[i].style.display = "none";
+     }
+
+     // Show the selected image
+     slides4[currentSlide4].style.display = "block";
+ }
+
+
+
+
+  // 5 slide
+
+
+
+  var currentSlide5 = 0;
+
+  function openSlider5() {
+      var slider5 = document.getElementById("imageSlider5");
+      var slides5 = document.getElementsByClassName("sliderImage5");
+ 
+      // Show all images initially
+      for (var i = 0; i < slides5.length; i++) {
+          slides5[i].style.display = "none";
+      }
+ 
+      // Show only the selected image
+      showSlide5(currentSlide5);
+ 
+      // Display the slider
+      slider5.style.display = "flex";
+  }
+ 
+  function closeSlider5() {
+      var slider5 = document.getElementById("imageSlider5");
+      slider5.style.display = "none";
+  }
+ 
+  function changeSlide5(n) {
+      showSlide5(currentSlide5 += n);
+  }
+ 
+  function showSlide5(n) {
+      var slides5 = document.getElementsByClassName("sliderImage5");
+      if (n >= slides5.length) {
+          currentSlide5 = 0;
+      } else if (n < 0) {
+          currentSlide5 = slides5.length - 1;
+      } else {
+          currentSlide5 = n;
+      }
+ 
+      // Hide all images
+      for (var i = 0; i < slides5.length; i++) {
+          slides5[i].style.display = "none";
+      }
+ 
+      // Show the selected image
+      slides5[currentSlide5].style.display = "block";
+  }
+
+
+
+
+  // 6 slide
+
+
+
+  var currentSlide6 = 0;
+
+  function openSlider6() {
+      var slider6 = document.getElementById("imageSlider6");
+      var slides6 = document.getElementsByClassName("sliderImage6");
+ 
+      // Show all images initially
+      for (var i = 0; i < slides6.length; i++) {
+          slides6[i].style.display = "none";
+      }
+ 
+      // Show only the selected image
+      showSlide6(currentSlide6);
+ 
+      // Display the slider
+      slider6.style.display = "flex";
+  }
+ 
+  function closeSlider6() {
+      var slider6 = document.getElementById("imageSlider6");
+      slider6.style.display = "none";
+  }
+ 
+  function changeSlide6(n) {
+      showSlide6(currentSlide6 += n);
+  }
+ 
+  function showSlide6(n) {
+      var slides6 = document.getElementsByClassName("sliderImage6");
+      if (n >= slides6.length) {
+          currentSlide6 = 0;
+      } else if (n < 0) {
+          currentSlide6 = slides6.length - 1;
+      } else {
+          currentSlide6 = n;
+      }
+ 
+      // Hide all images
+      for (var i = 0; i < slides6.length; i++) {
+          slides6[i].style.display = "none";
+      }
+ 
+      // Show the selected image
+      slides6[currentSlide6].style.display = "block";
+  }

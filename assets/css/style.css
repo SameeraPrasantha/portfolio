@@ -648,11 +648,11 @@ footer{
 
 
 
-    #imageContainer,#imageContainer2,#imageContainer3 {
+    #imageContainer,#imageContainer2,#imageContainer3,#imageContainer4,#imageContainer5,#imageContainer6 {
             cursor: pointer;
         }
 
-        #imageSlider,#imageSlider2,#imageSlider3 {
+        #imageSlider,#imageSlider2,#imageSlider3,#imageSlider4,#imageSlider5,#imageSlider6 {
             display: none;
             position: fixed;
             top: 0;
@@ -666,7 +666,7 @@ footer{
             margin-top: 42px;
         }
 
-        .sliderImage,.sliderImage2,.sliderImage3 {
+        .sliderImage,.sliderImage2,.sliderImage3,.sliderImage4,.sliderImage5,.sliderImage6 {
             display: none;
             width: auto;
             height: auto;
@@ -687,15 +687,15 @@ footer{
             border: none;
         }
 
-        #prevButton,#prevButton2,#prevButton3 {
+        #prevButton,#prevButton2,#prevButton3,#prevButton4,#prevButton5,#prevButton6 {
             left: 10px;
         }
 
-        #nextButton,#nextButton2,#nextButton3 {
+        #nextButton,#nextButton2,#nextButton3,#nextButton4,#nextButton5,#nextButton6 {
             right: 10px;
         }
 
-        #closeButton,#closeButton2,#closeButton3 {
+        #closeButton,#closeButton2,#closeButton3,#closeButton4,#closeButton5,#closeButton6 {
             position: absolute;
             top: 10px;
             right: 10px;
@@ -707,21 +707,22 @@ footer{
             margin-top: 44px;
         }
 
-        /* Mobile Responsive Styles */
-        @media only screen and (max-width: 1000px) {
-            .sliderImage,.sliderImage2,.sliderImage3 {
-                max-width: 90%;
-                max-height: 60vh;
-                margin-left: auto;
-                margin-right: auto;
-            }
-        }
-        @media only screen and (max-width: 600px) {
-            .sliderImage,.sliderImage2,.sliderImage3 {
-                max-width: 90%;
-                max-height: 60vh;
-            }
-        }
+       /* Mobile Responsive Styles */
+@media only screen and (max-width: 1000px) {
+    .sliderImage, .sliderImage2, .sliderImage3, .sliderImage4, .sliderImage5, .sliderImage6 {
+        max-width: 90%;
+        max-height: 60vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sliderImage, .sliderImage2, .sliderImage3, .sliderImage4, .sliderImage5, .sliderImage6 {
+        max-width: 90%;
+        max-height: 52vh;
+    }
+}
 
         .emailColor{
             text-decoration: none;
